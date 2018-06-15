@@ -1,0 +1,138 @@
+\documentclass[10pt,article,twoside]{memoir}
+
+\usepackage[protrusion, expansion,kerning,tracking,spacing]{microtype}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{libertine}
+
+\usepackage{multicol}
+
+\usepackage{framed}
+
+\usepackage[T1]{fontenc}
+
+\usepackage{graphicx}
+\usepackage{titlesec}
+
+\microtypecontext{spacing=nonfrench}
+\nonfrenchspacing
+
+%\linespread{1.23}
+
+%\setlrmargins{*}{*}{1.618}
+%\setulmargins{*}{*}{1.618}	
+%\settypeblocksize{7.5in}{*}{0.618}
+%\checkandfixthelayout
+\usepackage[margin=0.8in]{geometry}
+
+%\counterwithout{section}{chapter}
+%\linespread{2}
+%
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{.5\baselineskip}
+%\setlength{\parfillskip}{0pt} % don't fill the last line
+%\setlength{\emergencystretch}{0.1\textwidth} % not to get preposterously bad lines
+
+\nouppercaseheads
+
+\clearmark{section}
+\makeatletter
+\createmark{chapter}{right}{nonumber}{\@chapapp\ }{. \ }
+\makeatother
+\makepagestyle{mystyle}
+%\makeevenhead{mystyle}{\excerptname}{Week \thechapter}{\excerptauthor}
+%\makeoddhead{mystyle}{\excerptname}{Week \thechapter}{\excerptauthor}
+\makeevenhead{mystyle}{}{}{}
+\makeoddhead{mystyle}{}{}{}
+
+\makeevenfoot{mystyle}{\thepage}{}{}
+\makeoddfoot{mystyle}{}{}{\thepage}
+
+%\makeheadrule{mystyle}{\textwidth}{1pt}
+%\makefootrule{mystyle}{\textwidth}{1pt}{0in}
+
+%\copypagestyle{chapter}{mystyle}
+%\aliaspagestyle{part}{chapter}
+%\aliaspagestyle{cleared}{chapter}
+
+
+\begin{document}
+%	\pagestyle{ruled}
+	\pagestyle{mystyle}
+%	\title{\emph{De Servo Arbitrio} reading group meeting 1}
+%	\author{Simon Kuang}
+%	\date{June 15, 2018}
+%	
+	\chapter{June 15, 2018: Why free will matters}
+%	\maketitle
+	\begin{multicols}{2}
+	\section{Excerpt from \emph{Summa Theologiae} I, q.~4, a.~4 (Aquinas)}
+	\subsection{Whether rectitude of the will is necessary for happiness?}
+	
+	\begin{description}
+		\item[Objection 1]%\footnote{\emph{Summa} caters to debate-style classroom education in the High Middle Ages. In order to investigate a question, Aquinas presents contemptible answers, then states and argues his suggested resolution first by authority, then by reason. Finally he answers the rejected proposals.}
+		It would seem that rectitude of the will is not necessary for Happiness. For Happiness consists essentially in an operation of the intellect,%\footnote{To Aquinas, final happiness is the beatific vision, in which we see God face to face at the end of this age. This is an act of understanding, hence \emph{intellect.}} 
+		as stated above (Question [3], Article [4]). But rectitude of the will, by reason of which men are said to be clean of heart, is not necessary for the perfect operation of the intellect: for Augustine says (Retract.~i, 4) ``I do not approve of what I said in a prayer: O God, Who didst will none but the clean of heart to know the truth. For it can be answered that many who are not clean of heart, know many truths.'' Therefore rectitude of the will is not necessary for Happiness.
+		\item[On the contrary,] It is written (Mt.~5:8): ``Blessed are the clean of heart; for they shall see God'': and (Heb.~12:14): ``Follow peace with all men, and holiness; without which no man shall see God.''
+		\item[I answer that,] Rectitude of will is necessary for Happiness both antecedently and concomitantly. Antecedently, because rectitude of the will consists in being duly ordered to the last end. Now the end in comparison to what is ordained to the end is as form compared to matter. Wherefore, just as matter cannot receive a form, unless it be duly disposed thereto, so nothing gains an end, except it be duly ordained thereto. And therefore none can obtain Happiness, without rectitude of the will. Concomitantly, because as stated above (Question [3], Article [8]), final Happiness consists in the vision of the Divine Essence, Which is the very essence of goodness. So that the will of him who sees the Essence of God, of necessity, loves, whatever he loves, in subordination to God; just as the will of him who sees not God's Essence, of necessity, loves whatever he loves, under the common notion of good which he knows. And this is precisely what makes the will right. Wherefore it is evident that Happiness cannot be without a right will.
+	\end{description}
+	
+	\section{Excerpt from \emph{Summa Theologiae} I, q.~83, a.~1 (Aquinas)}
+%	\begin{multicols}{2}
+	\subsection{Whether man has free-will?}
+	
+	\begin{description}
+		\item[Objection 1]  It would seem that man has not free-will. For whoever has free-will does what he wills. But man does not what he wills; for it is written (Rm.~7:19): ``For the good which I will I do not, but the evil which I will not, that I do.'' Therefore man has not free-will.
+		\item[Objection 2] Further, whoever has free-will has in his power to will or not to will, to do or not to do. But this is not in man's power: for it is written (Rm.~9:16): ``It is not of him that willeth''---namely, to will---``nor of him that runneth''---namely, to run. Therefore man has not free-will.
+		\item[Objection 3]  Further, what is ``free is cause of itself,'' as the Philosopher says (Metaph.~i, 2). Therefore what is moved by another is not free. But God moves the will, for it is written (Prov.~21:1): ``The heart of the king is in the hand of the Lord; whithersoever He will He shall turn it'' and (Phil.~2:13): ``It is God Who worketh in you both to will and to accomplish.'' Therefore man has not free-will.
+		\item[Objection 4]  Further, whoever has free-will is master of his own actions. But man is not master of his own actions: for it is written (Jer.~10:23): ``The way of a man is not his: neither is it in a man to walk.'' Therefore man has not free-will.
+%		\item[Objection 5]  Further, the Philosopher says (Ethic.~iii, 5): ``According as each one is, such does the end seem to him.'' But it is not in our power to be of one quality or another; for this comes to us from nature. Therefore it is natural to us to follow some particular end, and therefore we are not free in so doing.
+
+		\item[On the contrary,] It is written (Ecclus.~15:14): ``God made man from the beginning, and left him in the hand of his own counsel''; and the gloss adds: ``That is of his free-will.''
+		
+		\item[I answer that,]  Man has free-will: otherwise counsels, exhortations, commands, prohibitions, rewards, and punishments would be in vain. In order to make this evident, we must observe that some things act without judgment; as a stone moves downwards; and in like manner all things which lack knowledge. And some act from judgment, but not a free judgment; as brute animals. For the sheep, seeing the wolf, judges it a thing to be shunned, from a natural and not a free judgment, because it judges, not from reason, but from natural instinct. And the same thing is to be said of any judgment of brute animals. But man acts from judgment, because by his apprehensive power he judges that something should be avoided or sought. But because this judgment, in the case of some particular act, is not from a natural instinct, but from some act of comparison in the reason, therefore he acts from free judgment and retains the power of being inclined to various things. For reason in contingent matters may follow opposite courses, as we see in dialectic syllogisms and rhetorical arguments. Now particular operations are contingent, and therefore in such matters the judgment of reason may follow opposite courses, and is not determinate to one. And forasmuch as man is rational is it necessary that man have a free-will.
+		\item[Reply to Objection 1]  As we have said above (Question [81], Article [3], ad 2), the sensitive appetite, though it obeys the reason, yet in a given case can resist by desiring what the reason forbids. This is therefore the good which man does not when he wishes---namely, ``not to desire against reason,'' as Augustine says.
+		\item[Reply to Objection 2]  Those words of the Apostle are not to be taken as though man does not wish or does not run of his free-will, but because the free-will is not sufficient thereto unless it be moved and helped by God.
+		\item[Reply to Objection 3] Free-will is the cause of its own movement, because by his free-will man moves himself to act. But it does not of necessity belong to liberty that what is free should be the first cause of itself, as neither for one thing to be cause of another need it be the first cause. God, therefore, is the first cause, Who moves causes both natural and voluntary. And just as by moving natural causes He does not prevent their acts being natural, so by moving voluntary causes He does not deprive their actions of being voluntary: but rather is He the cause of this very thing in them; for He operates in each thing according to its own nature.
+		\item[Reply to Objection 4] ``Man's way'' is said ``not to be his'' in the execution of his choice, wherein he may be impeded, whether he will or not. The choice itself, however, is in us, but presupposes the help of God.
+%		\item[Reply to Objection 5] Quality in man is of two kinds: natural and adventitious. Now the natural quality may be in the intellectual part, or in the body and its powers. From the very fact, therefore, that man is such by virtue of a natural quality which is in the intellectual part, he naturally desires his last end, which is happiness. Which desire, indeed, is a natural desire, and is not subject to free-will, as is clear from what we have said above (Question [82], Articles [1],2). But on the part of the body and its powers man may be such by virtue of a natural quality, inasmuch as he is of such a temperament or disposition due to any impression whatever produced by corporeal causes, which cannot affect the intellectual part, since it is not the act of a corporeal organ. And such as a man is by virtue of a corporeal quality, such also does his end seem to him, because from such a disposition a man is inclined to choose or reject something. But these inclinations are subject to the judgment of reason, which the lower appetite obeys, as we have said (Question [81], Article [3]). Wherefore this is in no way prejudicial to free-will.
+		
+%		The adventitious qualities are habits and passions, by virtue of which a man is inclined to one thing rather than to another. And yet even these inclinations are subject to the judgment of reason. Such qualities, too, are subject to reason, as it is in our power either to acquire them, whether by causing them or disposing ourselves to them, or to reject them. And so there is nothing in this that is repugnant to free-will.
+	\end{description}
+	\section{Excerpt from \emph{Compendium of Theology}, ch.~\#174 (Aquinas)}
+	Since the wretchedness to which vice leads is opposed to the happiness to which virtue leads, whatever pertains to wretchedness must be understood as being the opposite of all we have said about happiness. We pointed out above that man’s ultimate happiness, as regards his intellect, consists in the unobstructed vision of God. And as regards man’s affective life, happiness consists in the immovable repose of his will in the first Good. Therefore man’s extreme unhappiness will consist in the fact that his intellect is completely shut off from the divine light, and that his affections are stubbornly turned against God’s goodness. And this is the chief suffering of the damned. It is known as the punishment of loss.
+	
+	However, as should be clear from what we said on a previous occasion, evil cannot wholly exclude good, since every evil has its basis in some good. Consequently, although suffering is opposed to happiness, which will be free from all evil, it must be rooted in a good of nature. The good of an intellectual nature consists in the contemplation of truth by the intellect, and in the inclination to good on the part of the will. But all truth and all goodness are derived from the first and supreme good, which is God. Therefore the intellect of a man situated in the extreme misery of hell must have some knowledge of God and some love of God, but only so far as He is the principle of natural perfections. This is natural love. But the soul in hell cannot know and love God as He is in Himself, nor so far as He is the principle of virtue or of grace and the other goods through which intellectual nature is brought to perfection by Him; for this is the perfection of virtue and glory.
+	
+	Nevertheless men buried in the misery of hell are not deprived of free choice, even though their will is immovably attached to evil. In the same way the blessed retain the power of free choice, although their will is fixed on the Good. Freedom of choice, properly speaking, has to do with election. But election is concerned with the means leading to an end. The last end is naturally desired by every being. Hence all men, by the very fact that they are intellectual, naturally desire happiness as their last end, and they do so with such immovable fixity of purpose that no one can wish to be unhappy. But this is not incompatible with free will, which extends only to means leading to the end. The fact that one man places his happiness in this particular good while another places it in that good, is not characteristic of either of these men so far as he is a man, since in such estimates and desires men exhibit great differences. This variety is explained by each man’s condition. By this I mean each man’s acquired passions and habits; and so if a man’s condition were to undergo change, some other good would appeal to him as most desirable.
+	
+	This appears most clearly in men who are led by passion to crave some good as the best. When the passion, whether of anger or lust, dies down, they no longer have the same estimate of that good as they had before.
+	
+	Habits are more permanent, and so men persevere more obstinately in seeking goods to which habit impels them. Yet, so long as habit is capable of change, man’s desire and his judgment as to what constitutes the last end are subject to change. This possibility is open to men only during the present life, in which their state is changeable. After this life the soul is not subject to alteration. No change can affect it except indirectly, in consequence of some change undergone by the body.
+	
+%	However, when the body is resumed, the soul will not be governed by changes occurring in the body.”“ Rather, the contrary will take place. During our present life the soul is infused into a body that has been generated of seed, and therefore, as we should expect, is affected by changes experienced in the body. But in the next world the body will be united to a pre-existing soul, and so will be completely governed by the latter’s conditions. Accordingly the soul will remain perpetually in whatever last end it is found to have set for itself at the time of death, desiring that state as the most suitable, whether it is good or evil. This is the meaning of Ecclesiastes 11:3: “If the tree fall to the south or to the north, in what place soever it shall fall, there shall it be.” After this life, therefore, those who are found good at the instant of death will have their wills forever fixed in good. But those who are found evil at that moment will be forever obstinate in evil.
+
+	\section{Excerpt from \emph{Heidelberg Disputation} (Luther)}
+	\begin{enumerate}
+		\setcounter{enumi}{13}
+		\item \emph{Free will, after the fall, exists in name only, and as long as it does what it is able to do, it commits a mortal sin.}
+		
+		The first part is clear, for the will is captive and subject to sin. Not that it is nothing, but that it is not free except to do evil. According to John 8:34,36, ``Every one who commits sin is a slave to sin.'' ``So if the Son makes you free, you will be free indeed.'' Hence St.~Augustine says in his book \emph{The Spirit and the Letter}: ``Free will without grace has the power to do nothing but sin''; and in the second book of \emph{Against Julian}, ``You call the will free, but in fact it is an enslaved will,'' and in many other places.
+		
+		The second part is clear from what has been said above and from the verse in Hos.~13:9, ``Israel, you are bringing misfortune upon yourself, for your salvation is alone with me,'' and from similar passages.
+		
+%		\item \emph{Free will, after the fall, has power to do good only in a passive capacity, but it can always do evil in an active capacity.}
+		
+%		An illustration will make the meaning of this thesis clear. Just as a dead man can do something toward life only in his original capacity (\emph{in vitam solum subiective}), so can he do something toward death in an active manner while he lives. Free will, however, is dead, as demonstrated by the dead whom the Lord has raised up, as the holy teachers of the church say. St.~Augustine, moreover, proves this same thesis in his various writings against the Pelagians.
+%		
+%		\item 
+%		\emph{Nor could free will remain in a state of innocence, much less do good, in an active capacity, but only in its passive capacity (\emph{subiectiva potentia}).}
+%		
+%		The Master of the \emph{Sentences} (Peter Lombard), quoting Augustine, states, ``By these testimonies it is obviously demonstrated that man received a righteous nature and a good will when he was created, and also the help by means of which he could prevail. Otherwise it would appear as though he had not fallen because of his own fault.'' He speaks of the active capacity (\emph{potentia activa}), which is obviously contrary to Augustine's opinion in his book \emph{Concerning Reprimand and Grace} (\emph{De Correptione et Gratia}), where the latter puts it in this way: ``He received the ability to act, if he so willed, but he did not have the will by means of which he could act.'' By ``ability to act'' he understands the original capacity (\emph{potentia subiectiva}), and by ``will by means of which he could,'' the active capacity (\emph{potentia activa}).
+%		
+%		The second part (of the thesis), however, is sufficiently clear from the same reference to the Master.
+	\end{enumerate}
+\end{multicols}
+
+\end{document}
