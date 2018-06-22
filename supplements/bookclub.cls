@@ -12,7 +12,16 @@
 \RequirePackage[T1]{fontenc}
 \RequirePackage{graphicx}
 \RequirePackage{titlesec}
+\RequirePackage{enumitem}
+\RequirePackage{moreenum}
+\RequirePackage{amssymb}
 
+\DeclareOption{outline}{%
+    \setenumerate[1]{label=\Roman*}%
+    \setenumerate[0]{label=(\roman*)}%
+    \newenvironment{mynotes}%
+        {\begin{enumerate}[label=({\greek*})]}%
+        {\end{enumerate}}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{memoir}}
 \ProcessOptions\relax
 
