@@ -17,7 +17,7 @@
 \RequirePackage{amssymb}
 
 \DeclareOption{outline}{%
-    \setenumerate[1]{label=\Roman*}%
+    \setenumerate[1]{label=\Roman*.}%
     \setenumerate[0]{label=(\roman*)}%
     \newenvironment{mynotes}%
         {\begin{enumerate}[label=({\greek*})]}%
