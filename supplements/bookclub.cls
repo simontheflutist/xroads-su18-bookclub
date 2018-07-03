@@ -21,7 +21,10 @@
     \setenumerate[0]{label=(\roman*)}%
     \newenvironment{mynotes}%
         {\begin{enumerate}[label=({\greek*})]}%
-        {\end{enumerate}}}
+        {\end{enumerate}}%
+    \newenvironment{response}%
+    {\begin{enumerate}[label=({\arabic*})]}%
+    	{\end{enumerate}}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{memoir}}
 \ProcessOptions\relax
 
